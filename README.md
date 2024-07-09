@@ -8,18 +8,18 @@ This application displays a list of Rick and Morty characters powered by a REST 
 
 When you start the application, the Splash screen appears during the loading time.
 
-![Splash](https://github.com/luispouso/RyckAndMorty/blob/develop/RMSplash.png)
+![Splash](https://github.com/luispouso/RickAndMorty/blob/develop/RMSplash.png)
 
 
 
 We see the main screen, the recipe list
 
-![Splash](https://github.com/luispouso/RyckAndMorty/blob/develop/RMList.png)
+![Splash](https://github.com/luispouso/RickAndMorty/blob/develop/RMList.png)
 
 
 We see the recipe details screen
 
-![Splash](https://github.com/luispouso/RyckAndMorty/blob/develop/RMDetail.png)
+![Splash](https://github.com/luispouso/RickAndMorty/blob/develop/RMDetail.png)
 
 
 
@@ -27,7 +27,7 @@ We see the recipe details screen
 
 Clone the repository: https://github.com/luispouso/RickAndMorty
 
-Android Studio Flamingo 2022.2.1 or higher
+Android Studio Koala
 A device with Android 7.1 (Nougat) or higher
 
 ## LICENSE
