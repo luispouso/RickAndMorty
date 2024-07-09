@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="Application"
+        android:name=".Application"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -15,13 +15,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RickAndMorty"
         tools:targetApi="31">
-
         <activity
-            android:name=".presentation.main.MainActivity"
-            android:exported="true" />
-
+            android:name=".features.characters.detail.ui.CharacterDetailActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
         <activity
-            android:name=".presentation.splash.SplashActivity"
+            android:name=".features.characters.main.ui.MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".features.splash.ui.SplashActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
